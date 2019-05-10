@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-19T16:57:03.240+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/pet/settings/wcm/templates/site-1-dynamic-template-2"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="/apps/pet/components/structure/pet-page">
+        <root
+            jcr:lastModified="{Date}2019-04-19T16:55:32.275+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-04-19T16:53:51.760+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-04-19T16:53:51.760+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <breadcrumb
+                    jcr:created="{Date}2019-04-19T16:55:54.735+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-04-19T16:56:03.378+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pet/components/content/breadcrumb"
+                    hideCurrent="false"
+                    showHidden="true"
+                    startLevel="2"/>
+                <image
+                    jcr:created="{Date}2019-04-19T16:56:07.704+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-04-19T16:56:44.321+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="\[Default Component] Stage Image"
+                    sling:resourceType="pet/components/content/image"
+                    alt="Alt Text"
+                    displayPopupTitle="false"
+                    fileName="stage-new-actros.jpg"
+                    imageCrop="220,0,1565,488"
+                    isDecorative="false">
+                    <file/>
+                </image>
+                <title
+                    jcr:created="{Date}2019-04-19T16:56:47.672+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-04-19T16:57:03.233+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="\[Deafult Component] My Page Title!"
+                    sling:resourceType="pet/components/content/title"/>
+            </responsivegrid>
+            <responsivegrid_1361964853
+                jcr:created="{Date}2019-04-19T16:53:54.850+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-04-19T16:53:54.850+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid_1361964853>
+        </root>
+    </jcr:content>
+</jcr:root>

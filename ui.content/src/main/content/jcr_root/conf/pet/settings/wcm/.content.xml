@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <templates/>
+    <policies
+        jcr:created="{Date}2019-04-18T18:31:59.474+03:00"
+        jcr:createdBy="admin"
+        jcr:primaryType="nt:unstructured">
+        <wcm jcr:primaryType="nt:unstructured">
+            <foundation jcr:primaryType="nt:unstructured">
+                <components jcr:primaryType="nt:unstructured">
+                    <responsivegrid jcr:primaryType="nt:unstructured">
+                        <content-default
+                            cq:styleDefaultClasses="pet-default"
+                            jcr:lastModified="{Date}2019-04-19T16:53:46.309+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Component Base Policy for Site 1"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            columns="3"
+                            components="[/libs/wcm/foundation/components/responsivegrid,/apps/pet/components/content/breadcrumb,/apps/pet/components/content/image,/apps/pet/components/content/text,/apps/pet/components/content/title]"
+                            policyResourceType="wcm/foundation/components/responsivegrid">
+                            <cq:authoring jcr:primaryType="nt:unstructured">
+                                <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        assetGroup="media"
+                                        assetMimetype="image/*"
+                                        droptarget="image"
+                                        resourceType="pet/components/content/image"
+                                        type="Images"/>
+                                    <mapping_1555600762204
+                                        jcr:primaryType="nt:unstructured"
+                                        assetGroup="media"
+                                        assetMimetype="[image/gif,image/png,image/webp,image/tiff,image/svg+xml]"
+                                        droptarget="image"
+                                        resourceType="pet/components/content/image"/>
+                                    <mapping_1555679408520
+                                        jcr:primaryType="nt:unstructured"
+                                        assetGroup="media"
+                                        assetMimetype="[image/gif,image/png,image/webp]"
+                                        droptarget="image"
+                                        resourceType="pet/components/content/teaser"/>
+                                </assetToComponentMapping>
+                            </cq:authoring>
+                            <jcr:content
+                                cq:lastReplicated="{Date}2019-04-19T16:31:12.040+03:00"
+                                cq:lastReplicatedBy="admin"
+                                cq:lastReplicationAction="Activate"
+                                jcr:mixinTypes="[cq:ReplicationStatus]"
+                                jcr:primaryType="nt:unstructured"
+                                mergeList="{Boolean}true"/>
+                        </content-default>
+                        <policy_16729566614258
+                            jcr:lastModified="{Date}2019-04-19T16:54:36.941+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Header policy [Site 1 Dynamic Template 2]"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/apps/pet/components/content/breadcrumb,/apps/pet/components/content/image,/apps/pet/components/content/title]">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                        </policy_16729566614258>
+                        <policy_16774762822727
+                            jcr:lastModified="{Date}2019-04-19T16:55:05.620+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Content Policy [Site 1 Dynamic Template 2]"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[group:PETContent,group:PETContent Form]">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                        </policy_16774762822727>
+                        <policy_17210710456846
+                            jcr:lastModified="{Date}2019-04-19T17:02:34.097+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Dynamic Template 3 - Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/apps/pet/components/content/breadcrumb,/apps/pet/components/content/image]">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                        </policy_17210710456846>
+                        <policy_17251928532384
+                            jcr:lastModified="{Date}2019-04-19T17:03:03.929+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Dynamic Page 3 - Content [Site 1]"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="group:PETContent">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                        </policy_17251928532384>
+                    </responsivegrid>
+                </components>
+            </foundation>
+        </wcm>
+        <pet jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <structure jcr:primaryType="nt:unstructured">
+                    <pet-page jcr:primaryType="nt:unstructured">
+                        <policy_1555605087589
+                            jcr:description="Property with ES"
+                            jcr:lastModified="{Date}2019-04-19T16:13:51.162+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Policy #2 With ES"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            clientlibs="[pet.base,pet.specific]">
+                            <jcr:content
+                                cq:lastReplicated="{Date}2019-04-19T16:31:12.040+03:00"
+                                cq:lastReplicatedBy="admin"
+                                cq:lastReplicationAction="Activate"
+                                jcr:mixinTypes="[cq:ReplicationStatus]"
+                                jcr:primaryType="nt:unstructured"/>
+                        </policy_1555605087589>
+                        <policy_1555679024339
+                            jcr:lastModified="{Date}2019-04-19T16:04:36.550+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Base policies  for Site 1"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            clientlibs="[mbo.components,mbo.site]">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                        </policy_1555679024339>
+                        <policy_16660234990222
+                            jcr:lastModified="{Date}2019-04-19T16:53:12.049+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Template Policy 1  [Site 1 Dynamic Template 2]"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            clientlibs="[pet.base,pet.specific]">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                        </policy_16660234990222>
+                        <policy_17538507026280
+                            jcr:lastModified="{Date}2019-04-19T17:07:48.601+03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Policy of MBO for child"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            clientlibs="mbo.all">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                        </policy_17538507026280>
+                    </pet-page>
+                </structure>
+            </components>
+        </pet>
+        <apps jcr:primaryType="nt:unstructured">
+            <pet jcr:primaryType="nt:unstructured">
+                <components jcr:primaryType="nt:unstructured">
+                    <structure jcr:primaryType="nt:unstructured">
+                        <pet-page jcr:primaryType="nt:unstructured"/>
+                    </structure>
+                </components>
+            </pet>
+        </apps>
+    </policies>
+    <template-types/>
+</jcr:root>
